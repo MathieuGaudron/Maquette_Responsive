@@ -1,0 +1,357 @@
+*{
+    font-family: "Droid Sans";
+    font-size: 12px;
+    color: rgb(145, 141, 141);
+}
+
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-image: url("/images/grille.png");
+}
+
+nav li {
+    font-size: 10px;
+    padding: 4px;
+}
+
+nav h4 {
+    font-size: 14px;
+}
+
+nav hr {
+    margin-top: -15px;
+}
+
+
+h3 {
+    font-size: 18px;
+}
+
+h4 {
+    color: rgb(154, 152, 152);
+}
+
+li {
+    margin: 2px;
+    list-style: none;
+}
+.logo {
+    display: flex;
+    justify-content: center;
+    margin-right: 50px;
+}
+ 
+nav img {
+    object-fit: contain;
+}
+
+#red {
+    background-color: red;
+    height: 4px;
+    border: none;
+}
+
+#yellow {
+    background-color: yellow;
+    height: 4px;
+    border: none;
+}
+
+#green {
+    background-color: green;
+    height: 4px;
+    border: none;
+}
+
+#blue {
+    background-color: rgb(29, 149, 196);
+    height: 4px;
+    border: none;
+}
+
+#purple {
+    background-color: purple;
+    height: 4px;
+    border: none;
+}
+
+.video {
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+.milieu {
+    display: flex;
+    justify-content: center;
+    background-image: url("/images/grille.png");
+    padding: 30px;
+    font-style: italic;
+}
+.milieu p {
+    font-family: 'Droid Serif'; 
+    font-size: 17px;
+    color: gray;
+}
+
+.golf {
+    border: solid;
+    padding-left: 8px;
+    padding-right: 8px;
+    border-width: 1px;
+    width: 200px;
+    height: 100%;
+    margin-top: 50px;
+    margin-left: 110px;
+} 
+
+
+
+.plusieurs {
+    display: flex;
+    margin-left: 11%;
+   
+}
+.plusieurs h3 {
+    color: orange;
+}
+
+.double {
+    margin-bottom: 100px;
+}
+
+.activités {
+    margin-top: 50px;
+    margin-left: 40px;
+    width: 225px;
+    height: 100px;
+}
+
+.fast-foods {
+    margin-top: 150px;
+    margin-left: 40px;
+    width: 225px;
+    height: 100px;
+}
+
+.commentaires {
+    margin-left: 40px;
+    margin-top: 30px;
+    width: 40%;
+    flex-wrap: wrap;
+}
+
+.images {
+    display: flex;
+    flex-wrap: wrap;
+}
+.images img {
+   flex-basis: 25%;
+   border: solid rgb(223, 221, 221) 1px;
+   margin: 5px;
+   padding: 7px;
+   box-shadow: 1px 1px 3px 1px rgb(189, 189, 189);
+   
+}
+
+
+#lp {
+    color: grey;
+    font-style: italic;
+    font-family: 'Droid Serif'; 
+    font-weight: 550;
+}
+
+
+#lp1 {
+    color: grey;
+    font-style: italic;
+    font-family: 'Droid Serif'; 
+    font-weight: 550;
+}
+
+
+#lp2 {
+    color: grey;
+    font-style: italic;
+    font-family: 'Droid Serif'; 
+    font-weight: 550;
+}
+
+
+#lp3 {
+    color: grey;
+    font-style: italic;
+    font-family: 'Droid Serif'; 
+    font-weight: 550;
+}
+
+
+
+#pub {
+    padding-top: 1px;
+    color: grey;
+    font-style: italic;
+    font-family: 'Droid Serif'; 
+
+}
+
+#pub1 {
+    padding-top: 1px;
+    color: grey;
+    font-style: italic;
+    font-family: 'Droid Serif'; 
+
+}
+
+#pub2 {
+    padding-top: 1px;
+    color: grey;
+    font-style: italic;
+    font-family: 'Droid Serif'; 
+
+}
+
+#pub3 {
+    padding-top: 1px;
+    color: grey;
+    font-style: italic;
+    font-family: 'Droid Serif'; 
+
+}
+
+
+
+
+
+
+.fin {
+    display: flex;
+    background-image: url("images/grille.png");
+    justify-content: center;
+}
+
+.fin h4 {
+    font-size: 14px;
+}
+
+.contact {
+    padding-top: 15px;
+    display: block;
+    width: 25%;
+}
+
+
+
+.billet {
+    display: block;
+    width: 25%;
+}
+
+.billet li {
+    padding: 3px;
+}
+
+
+.lastcom {
+    display: block;
+    width: 25%;
+}
+
+.lastcom li {
+    padding: 3px;
+}
+
+.blabla {
+    display: block;
+    width: 18%;
+}
+
+.blabla li {
+    padding: 3px;
+}
+
+
+#soul {
+    text-decoration: underline;
+    color: grey;
+}
+
+#soul1 {
+    text-decoration: underline;
+    color: grey;
+}
+
+#souligne {
+    text-decoration: underline;
+    font-style: italic;
+    color: grey;
+}
+
+#date {
+    color: grey;
+}
+
+#date1 {
+    color: grey;
+}
+
+#gras {
+    font-weight: bold;
+    color: gray;
+}
+
+#gras1 {
+    font-weight: bold;
+    color: gray;
+}
+
+.copy ul {
+    display: flex;
+    padding-left: 90px;
+    padding-top: 20px;
+
+}
+
+.footer {
+    display: flex;
+    padding-left: 90px;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.reseaux {
+    display: flex;
+    justify-content: right;
+    margin-right: 5%;
+    margin-top: -50px;
+}    
+
+.reseaux a {
+    padding: 3px;
+}
+
+.decale {
+    margin-left: -45px;
+}
+
+.decale2 {
+    margin-left: -45px;
+}
+
+.footer p {
+    margin-top: -5px;
+}
+
+.line {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: orange;
+}
